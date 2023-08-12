@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mabnadp/static/css/main.67274b24.css",
-    "main.js": "/Mabnadp/static/js/main.2d3a9a33.js",
+    "main.js": "/Mabnadp/static/js/main.aaee5162.js",
     "static/media/1440-614.c4367429.jpg": "/Mabnadp/static/media/1440-614.c4367429.1b2498e6f8847bb32b92.jpg",
     "static/media/header-banner.86ce0473.png": "/Mabnadp/static/media/header-banner.86ce0473.6eca6c37992834ae5052.png",
     "static/media/loginLayout.41567d97.png": "/Mabnadp/static/media/loginLayout.41567d97.43e35638d73bdcb98b51.png",
@@ -15,10 +15,10 @@
     "static/media/mabna-img3.fa625e1f.jpg": "/Mabnadp/static/media/mabna-img3.fa625e1f.fc82e8963b9edd667266.jpg",
     "index.html": "/Mabnadp/index.html",
     "main.67274b24.css.map": "/Mabnadp/static/css/main.67274b24.css.map",
-    "main.2d3a9a33.js.map": "/Mabnadp/static/js/main.2d3a9a33.js.map"
+    "main.aaee5162.js.map": "/Mabnadp/static/js/main.aaee5162.js.map"
   },
   "entrypoints": [
     "static/css/main.67274b24.css",
-    "static/js/main.2d3a9a33.js"
+    "static/js/main.aaee5162.js"
   ]
 }
