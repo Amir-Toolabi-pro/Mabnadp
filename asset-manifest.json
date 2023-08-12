@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Mabnadp/static/css/main.67274b24.css",
+    "main.js": "/Mabnadp/static/js/main.2d3a9a33.js",
+    "static/media/1440-614.c4367429.jpg": "/Mabnadp/static/media/1440-614.c4367429.1b2498e6f8847bb32b92.jpg",
+    "static/media/header-banner.86ce0473.png": "/Mabnadp/static/media/header-banner.86ce0473.6eca6c37992834ae5052.png",
+    "static/media/loginLayout.41567d97.png": "/Mabnadp/static/media/loginLayout.41567d97.43e35638d73bdcb98b51.png",
+    "static/media/header-banner-md.893d1f5d.jpg": "/Mabnadp/static/media/header-banner-md.893d1f5d.cbfd70ddc284764796fe.jpg",
+    "static/media/768-819.26bd7a0f.jpg": "/Mabnadp/static/media/768-819.26bd7a0f.efecaf24ba78aa06ca79.jpg",
+    "static/media/formImg.f5c74e98.png": "/Mabnadp/static/media/formImg.f5c74e98.ca7a2b7d616b530e684d.png",
+    "static/media/mabna-img2.88cc0a95.jpg": "/Mabnadp/static/media/mabna-img2.88cc0a95.42ae5a98af461647bf2e.jpg",
+    "static/media/loginLayout-1024.4adcb7d0.png": "/Mabnadp/static/media/loginLayout-1024.4adcb7d0.418a30c58202bb2ae533.png",
+    "static/media/mabna-img1.6470c6e7.jpg": "/Mabnadp/static/media/mabna-img1.6470c6e7.71775923b9b35f54b0c9.jpg",
+    "static/media/360-512.dfde49f4.jpg": "/Mabnadp/static/media/360-512.dfde49f4.2e0e307ffc67aca36fe2.jpg",
+    "static/media/mabna-img3.fa625e1f.jpg": "/Mabnadp/static/media/mabna-img3.fa625e1f.fc82e8963b9edd667266.jpg",
+    "index.html": "/Mabnadp/index.html",
+    "main.67274b24.css.map": "/Mabnadp/static/css/main.67274b24.css.map",
+    "main.2d3a9a33.js.map": "/Mabnadp/static/js/main.2d3a9a33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67274b24.css",
+    "static/js/main.2d3a9a33.js"
+  ]
+}
