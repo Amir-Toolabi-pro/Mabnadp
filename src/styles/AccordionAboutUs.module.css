@@ -1,0 +1,177 @@
+.accordion_about_us {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.accordion_about_us .accordion_about_us_holder {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.accordion_about_us .accordion_about_us_holder h3 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions {
+  width: 100%;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #bcbcbc;
+  border-radius: 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  transition: all ease 0.4s;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head {
+  position: relative;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 15px 0;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head
+  button {
+  position: absolute;
+  left: 0;
+  outline: none;
+  border: 1px solid #00b753;
+  background-color: transparent;
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head
+  .the_accorion_head_icon {
+  margin-top: 3px;
+  font-size: 16px;
+  transition: all ease 0.4s;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_body {
+  padding: 15px 0 10px;
+  transition: all ease 0.4s;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_body
+  img {
+  width: 7px;
+  margin: 0px 0 0px 10px;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_body
+  p {
+  margin: 0 0 10px;
+}
+
+@media screen and (max-width: 680px) {
+
+  .accordion_about_us .accordion_about_us_holder h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head {
+  font-size: 16px;
+}
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head
+  button {
+    left: -5px;
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head {
+  font-size: 15px;
+}
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head
+  button {
+  height: 25px;
+  width: 25px;
+  left: -9px;
+}
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head
+  .the_accorion_head_icon {
+  margin-top: 3px;
+  font-size: 13px;
+  transition: all ease 0.4s;
+}
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_body
+  p {
+  font-size: 14px;
+}
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_body
+  ul li {
+  font-size: 14px;
+}
+}

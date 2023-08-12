@@ -1,0 +1,19 @@
+.swipholders_container {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.swipholders_container h3{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.swipholders_container img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+
+
+

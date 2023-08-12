@@ -1,0 +1,32 @@
+.google_addres{
+  width: 96%;
+  margin: 90px auto;
+}
+
+.google_addres iframe{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.location_icon{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.google_addres p{
+  text-align: center;
+  font-size: 24px;
+}
+
+.google_addres p:nth-child(3){
+  margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 550px) {
+  .google_addres p{
+    font-size: 20px;
+  }
+}

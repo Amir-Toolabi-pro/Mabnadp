@@ -1,0 +1,156 @@
+.contact_container {
+  width: 100%;
+}
+
+.contact_container .contact_head {
+  width: 100%;
+  padding: 140px 0;
+  background: url(https://mabnadp.com/_next/static/media/header-banner.adbe397c.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-top: 70px;
+}
+
+.contact_container .contact_head h3 {
+  text-align: center;
+  font-size: 44px;
+  color: #fff;
+}
+
+.contact_container .contact_head p {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.contact_container .system_customer_service{
+  width: 96%;
+  height: 90px;
+  margin: 60px auto;
+  padding: 0 25px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: url(https://mabnadp.com/_next/static/media/contact-us-supporting-bg.c924fffc.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact_container .system_customer_service p{
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.contact_container .system_customer_service div{
+  width: fit-content;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.contact_container .system_customer_service div button{
+  font-size: 14px;
+  color: #fff;
+  background-color: #00b753;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  width: 175px;
+  padding: 5px 0;
+  box-sizing: border-box;
+  font-family: yekan;
+}
+
+.contact_icons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.contact_icons .contact_icons_twoing{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact_icons .contact_icons_twoing div{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.contact_icons div p{
+  font-size: 22px;
+  font-family: yekan;
+}
+
+.contact_icons div:nth-child(4) p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1025px) {
+  .contact_container .contact_head {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact_container .system_customer_service{
+    height: fit-content;
+    padding: 20px 25px;
+    flex-direction: column;
+  }
+  .contact_container .system_customer_service div{
+    margin-top: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 770px) {
+  .contact_container .contact_head {
+    background: url(https://mabnadp.com/_next/static/media/header-banner-md.15691919.jpg)
+      no-repeat;
+      background-size: cover;
+      background-position: 50%;
+  }
+
+  .contact_icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact_icons .contact_icons_twoing{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .contact_icons{
+    flex-direction: column;
+  }
+}
