@@ -109,7 +109,7 @@
   object-fit: cover;
 }
 
-.about_container .top_btn {
+.top_btn {
   width: 38px;
   height: 38px;
   display: flex;
@@ -143,7 +143,7 @@
   }
 }
 
-.about_container .top_btn img {
+.top_btn img {
   width: 12px;
 }
 

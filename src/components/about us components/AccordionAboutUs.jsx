@@ -1,6 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
-
-import { Accordion, AccordionItem } from '@szhsin/react-accordion';
+import React, { useState } from 'react';
 
 
 //css style
@@ -118,7 +116,7 @@ const AccordionAboutUs = () => {
                 <strong>
                   رویه جمع آوری، ثبت و کنترل اطلاعات
                 </strong>
-                <button><ChevronDown color='#00b753' style={openThree ? { transform: "rotate(180deg)" } : { transform: "rotate(0deg)" }} className={css.the_accorion_head_icon} /></button>
+                <button><ChevronDown color='#00b753' style={{transform:openThree ? "rotate(180deg)" : "rotate(0deg)"}} className={css.the_accorion_head_icon} /></button>
               </div>
               <div class={css.the_accorion_body} style={openThree ? { display: "block" } : { display: "none" }}>
                 <p>اطلاعات مورد استفاده در سرویس‌ها و نرم‌افزارهای شرکت پردازش اطلاعات مالی مبنا به دو صورت خودکار و دستی جمع‌آوری و در پایگاه داده شرکت ثبت می‌شوند. این اطلاعات سپس در دو مرحله مجزا به‌صورت خودکار و دستی توسط کارشناسان کنترل و بازبینی می‌شوند.</p>

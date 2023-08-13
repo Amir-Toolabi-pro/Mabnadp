@@ -20,20 +20,48 @@ header .header_container {
 }
 
 header .ham_menu {
-  width: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  cursor: pointer;
+  width: fit-content;
+  height: 20px;
   display: none;
+  position: relative;
+  top: 0;
+  cursor: pointer;
 }
 
-header .ham_menu div {
+header .ham_menu .ham_menu_holder {
+  width: 20px;
+  height: 10px;
+  position: relative;
+  right: 0;
+  top: 10px;
+  z-index: 6;
+}
+
+header .ham_menu .ham_menu_holder span,
+header .ham_menu .ham_menu_holder span::before,
+header .ham_menu .ham_menu_holder span::after {
+  background: #fff;
+  border-radius: 3px;
+  content: "";
+  position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #fff;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 5;
+  right: 0;
+}
+
+header .ham_menu .ham_menu_holder span::before{
+  margin-top: -7px;
+}
+header .ham_menu .ham_menu_holder span{
+  margin-top: 0px;
+}
+header .ham_menu .ham_menu_holder span::after{
+  margin-top: 7px;
 }
 
 header .header_container .logo_and_navbar {
@@ -133,7 +161,7 @@ header .header_container .btn_login_header button:hover {
   background-color: rgba(50, 50, 50, 0.3);
   position: absolute;
   top: 70px;
-  transition: all ease .2s;
+  transition: all ease 0.2s;
 }
 
 .products_hover_show .products_hover_show_container {
@@ -313,8 +341,8 @@ header .header_container .btn_login_header button:hover {
   color: #00b753;
 }
 
-.products_hover_show .products_hover_show_alone_list div h5{
-  transition: all ease .2s;
+.products_hover_show .products_hover_show_alone_list div h5 {
+  transition: all ease 0.2s;
 }
 
 .products_hover_show .products_hover_show_alone_list div h5 img {
@@ -325,7 +353,7 @@ header .header_container .btn_login_header button:hover {
   font-size: 11px;
   color: #aaaaaa;
   font-weight: 100;
-  transition: all ease .2s;
+  transition: all ease 0.2s;
 }
 
 header

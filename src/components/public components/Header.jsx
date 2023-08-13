@@ -9,6 +9,7 @@ import style from "../../styles/header.module.css"
 const HeaderComponent = ({ currentUser }) => {
 
   const [mouseMove, setMouseMove] = useState(false)
+  const [openMenu, setOpenMenu] = useState(false)
 
   const navigate = useNavigate()
 
@@ -17,10 +18,14 @@ const HeaderComponent = ({ currentUser }) => {
     <>
       <header>
         <div className={style.header_container}>
-          <div className={style.ham_menu}>
-            <div></div>
-            <div></div>
-            <div></div>
+          <div className={style.ham_menu}
+            onClick={()=>{
+              setOpenMenu(!openMenu)
+            }}
+          >
+            <div className={style.ham_menu_holder}>
+              <span></span>
+            </div>
           </div>
           <div className={style.logo_and_navbar}>
             <div className={style.logo}>
@@ -74,19 +79,13 @@ const HeaderComponent = ({ currentUser }) => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink
-                      to={"a"}
-                      style={
-                        ({ isActive }) => {
-                          return {
-                            color: isActive ? "#00b24a" : "#fff",
-                            borderBottom: isActive ? "3px solid #00b753" : null,
-                          }
-                        }
-                      }
+                    <a
+                      target="_blank"
+                      href='https://jobinja.ir/companies/mabna-dp/jobs'
+                      style={{ color: "white" }}
                     >
                       فرصت های شغلی
-                    </NavLink>
+                    </a>
                   </li>
                   <li>
                     <NavLink

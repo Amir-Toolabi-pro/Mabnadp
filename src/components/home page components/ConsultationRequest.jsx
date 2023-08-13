@@ -12,7 +12,7 @@ const ConsultationRequest = () => {
           <p>ارائه‌دهنده ابزارهای تحلیلی، پردازشی و مدیریتی در بازارهای مالی</p>
         </div>
         <div className={style.btn_holder}>
-          <button>درخواست مشاوره</button>
+          <a href="#form_counseling">درخواست مشاوره</a>
         </div>
       </div>
     </>

@@ -33,7 +33,7 @@
   justify-content: center;
 }
 
-.consultation_request .btn_holder button {
+.consultation_request .btn_holder a {
   outline: none;
   border: none;
   color: #fff;

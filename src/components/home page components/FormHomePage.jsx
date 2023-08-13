@@ -13,7 +13,7 @@ const FormHomePage = () => {
 
   return (
     <>
-      <div className={style.form_home}>
+      <div className={style.form_home} id='form_counseling'>
         <div className={style.form_home_holder}>
           <div className={style.get_counseling}>
             <h3>برای دریافت مشاوره، فرم را پر کنید تا همکاران ما با شما تماس بگیرند:</h3>
@@ -66,11 +66,11 @@ const FormHomePage = () => {
                     <span>زمان مورد‌نظر خود را انتخاب کنید.</span>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke="#BCBCBC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                   </div>
-                  <div
+                  {/* <div
                     className={style.reservation_data}
                   >
                     please reserv a time to deate
-                  </div>
+                  </div> */}
                 </div>
               }
               <div className={style.get_counseling_btn}>

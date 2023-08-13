@@ -52,6 +52,8 @@
   button {
   position: absolute;
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   outline: none;
   border: 1px solid #00b753;
   background-color: transparent;
@@ -59,6 +61,9 @@
   height: 45px;
   width: 45px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .accordion_about_us

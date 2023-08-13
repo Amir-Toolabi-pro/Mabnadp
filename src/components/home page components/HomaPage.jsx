@@ -12,6 +12,9 @@ import SwiperSlideShow from '../public components/SwiperSlideShow';
 import Footer from '../public components/Footer';
 import axios from 'axios';
 
+import style from "../../styles/AboutUs.module.css"
+import icon from "../../images/icons8-top-32.png"
+
 
 
 
@@ -21,6 +24,8 @@ const HomePage = () => {
   const [getUsers, setGetUsers] = useState([])
   const [localName, setLocalName] = useState("")
   const [localNum, setLocalNum] = useState("")
+  const [getScroll, setScroll] = useState(false)
+  
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -43,6 +48,16 @@ const HomePage = () => {
   })
 
 
+  window.addEventListener("scroll", () => {
+    const scrollPosition = window.scrollY;
+    if (scrollPosition > 400) {
+      setScroll(true)
+    } else {
+      setScroll(false)
+    }
+  });
+
+
   return ( 
     <>
       <HeaderComponent currentUser={currentUser} />
@@ -55,6 +70,18 @@ const HomePage = () => {
       <CallMabna/>
       <SwiperSlideShow/>
       <Footer/>
+      {getScroll ?
+          <div className={style.top_btn}
+            style={getScroll ? { animation: "example1 .4s ease" } : { animation: "example2 .2s ease" }}
+            onClick={() => {
+              document.body.scrollTop = 0
+              document.documentElement.scrollTop = 0
+            }}
+          >
+            <img src={icon} alt="" />
+          </div> :
+          null
+        }
     </>
    );
 }
