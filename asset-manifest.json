@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mabnadp/static/css/main.a05aa2df.css",
-    "main.js": "/Mabnadp/static/js/main.f893034b.js",
+    "main.css": "/Mabnadp/static/css/main.6b9894b9.css",
+    "main.js": "/Mabnadp/static/js/main.e0b32635.js",
     "static/media/1440-614.c4367429.jpg": "/Mabnadp/static/media/1440-614.c4367429.1b2498e6f8847bb32b92.jpg",
     "static/media/header-banner.86ce0473.png": "/Mabnadp/static/media/header-banner.86ce0473.6eca6c37992834ae5052.png",
     "static/media/loginLayout.41567d97.png": "/Mabnadp/static/media/loginLayout.41567d97.43e35638d73bdcb98b51.png",
@@ -14,11 +14,11 @@
     "static/media/360-512.dfde49f4.jpg": "/Mabnadp/static/media/360-512.dfde49f4.2e0e307ffc67aca36fe2.jpg",
     "static/media/mabna-img3.fa625e1f.jpg": "/Mabnadp/static/media/mabna-img3.fa625e1f.fc82e8963b9edd667266.jpg",
     "index.html": "/Mabnadp/index.html",
-    "main.a05aa2df.css.map": "/Mabnadp/static/css/main.a05aa2df.css.map",
-    "main.f893034b.js.map": "/Mabnadp/static/js/main.f893034b.js.map"
+    "main.6b9894b9.css.map": "/Mabnadp/static/css/main.6b9894b9.css.map",
+    "main.e0b32635.js.map": "/Mabnadp/static/js/main.e0b32635.js.map"
   },
   "entrypoints": [
-    "static/css/main.a05aa2df.css",
-    "static/js/main.f893034b.js"
+    "static/css/main.6b9894b9.css",
+    "static/js/main.e0b32635.js"
   ]
 }
