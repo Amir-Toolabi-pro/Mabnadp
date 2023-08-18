@@ -4,14 +4,17 @@ import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 //style
 import style from "../../styles/header.module.css"
+//redux
+import { useDispatch, useSelector } from 'react-redux';
+import { openMenu } from '../../redux/humberSlice';
 
 
 const HeaderComponent = ({ currentUser }) => {
 
   const [mouseMove, setMouseMove] = useState(false)
-  const [openMenu, setOpenMenu] = useState(false)
-
   const navigate = useNavigate()
+  const dispatch = useDispatch()
+  const validateMenu = useSelector(state => state.humberReducer.value)
 
 
   return (
@@ -19,12 +22,16 @@ const HeaderComponent = ({ currentUser }) => {
       <header>
         <div className={style.header_container}>
           <div className={style.ham_menu}
-            onClick={()=>{
-              setOpenMenu(!openMenu)
+            onClick={() => {
+              dispatch(openMenu())
+              console.log(validateMenu);
             }}
           >
             <div className={style.ham_menu_holder}>
-              <span></span>
+              <div class={validateMenu? style.tophumber : null}></div>
+              <div class={validateMenu? style.midlehumber : null}></div>
+              <div class={validateMenu? style.bottomhumber : null}></div>
+              {/* <div class="clear"></div> */}
             </div>
           </div>
           <div className={style.logo_and_navbar}>

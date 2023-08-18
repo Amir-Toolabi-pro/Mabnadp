@@ -14,7 +14,7 @@ const LoginPassword = () => {
   const [checkPass, setCheckPass] = useState(false);
   let validate = false
   const navigate = useNavigate();
-  if (getPass.length >= 8 && getPass == lookPass && getName.length >= 3) {
+  if (getPass.length >= 8 && getPass === lookPass && getName.length >= 3) {
     validate = true
   }else{
     validate = false
