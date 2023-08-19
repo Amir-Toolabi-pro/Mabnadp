@@ -7,6 +7,7 @@ import style from "../../styles/header.module.css"
 //redux
 import { useDispatch, useSelector } from 'react-redux';
 import { openMenu } from '../../redux/humberSlice';
+import ListBar from './ListBar';
 
 
 const HeaderComponent = ({ currentUser }) => {
@@ -24,7 +25,6 @@ const HeaderComponent = ({ currentUser }) => {
           <div className={style.ham_menu}
             onClick={() => {
               dispatch(openMenu())
-              console.log(validateMenu);
             }}
           >
             <div className={style.ham_menu_holder}>
@@ -259,6 +259,10 @@ const HeaderComponent = ({ currentUser }) => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className={style.header_listbar_holder} style={{width: validateMenu? "100vw" : "0" , right: validateMenu? "0" : "-100%" }}>
+            <ListBar/>
         </div>
       </header>
     </>

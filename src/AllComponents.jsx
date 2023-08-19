@@ -10,6 +10,7 @@ import WellcomePage from './components/public components/WellcomePage';
 import AboutUs from './components/about us components/AboutUs';
 import ContactUs from './components/contact us/ContactUs';
 import LoginPassword from './components/public components/LoginPassword';
+import ListBar from './components/public components/ListBar';
 
 
 const AllComponents = () => {
@@ -22,6 +23,7 @@ const AllComponents = () => {
       <Route path='/login' element={<Login/>} />
       <Route path='/loginPass' element={<LoginPassword/>} />
       <Route path='/WellcomePage' element={<WellcomePage/>} />
+      <Route path='/list' element={<ListBar/>} />
     </Routes>
     </>
    );

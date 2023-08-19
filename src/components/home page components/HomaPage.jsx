@@ -14,8 +14,7 @@ import axios from 'axios';
 
 import style from "../../styles/AboutUs.module.css"
 import icon from "../../images/icons8-top-32.png"
-
-
+import { useSelector } from 'react-redux';
 
 
 
@@ -25,7 +24,7 @@ const HomePage = () => {
   const [localName, setLocalName] = useState("")
   const [localNum, setLocalNum] = useState("")
   const [getScroll, setScroll] = useState(false)
-  
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -47,7 +46,6 @@ const HomePage = () => {
     return user.fullname == localName && user.phone == localNum
   })
 
-
   window.addEventListener("scroll", () => {
     const scrollPosition = window.scrollY;
     if (scrollPosition > 400) {
@@ -57,20 +55,22 @@ const HomePage = () => {
     }
   });
 
+  const validateMenu = useSelector(state => state.humberReducer.value)
 
-  return ( 
+
+  return (
     <>
       <HeaderComponent currentUser={currentUser} />
-      <ConsultationRequest/>
-      <ProductsHomePage/>
-      <CustomersHomePage/>
-      <FormHomePage/>
-      <MabnaHistory/>
-      <MabnaIsDifferent/>
-      <CallMabna/>
-      <SwiperSlideShow/>
-      <Footer/>
-      {getScroll ?
+        <ConsultationRequest />
+        <ProductsHomePage />
+        <CustomersHomePage />
+        <FormHomePage />
+        <MabnaHistory />
+        <MabnaIsDifferent />
+        <CallMabna />
+        <SwiperSlideShow />
+        <Footer />
+        {getScroll ?
           <div className={style.top_btn}
             style={getScroll ? { animation: "example1 .4s ease" } : { animation: "example2 .2s ease" }}
             onClick={() => {
@@ -83,7 +83,7 @@ const HomePage = () => {
           null
         }
     </>
-   );
+  );
 }
- 
+
 export default HomePage;
