@@ -13,6 +13,7 @@ import Footer from '../public components/Footer';
 import axios from 'axios';
 
 import style from "../../styles/AboutUs.module.css"
+import getclass from "../../styles/homepage.module.css"
 import icon from "../../images/icons8-top-32.png"
 import { useSelector } from 'react-redux';
 
@@ -43,7 +44,7 @@ const HomePage = () => {
   }, []);
 
   const currentUser = getUsers.find(user => {
-    return user.fullname == localName && user.phone == localNum
+    return user.fullname === localName && user.phone === localNum
   })
 
   window.addEventListener("scroll", () => {
@@ -61,6 +62,7 @@ const HomePage = () => {
   return (
     <>
       <HeaderComponent currentUser={currentUser} />
+      <div className={validateMenu? getclass.homepage_holder : getScroll.homepage_holder_scrolling}>
         <ConsultationRequest />
         <ProductsHomePage />
         <CustomersHomePage />
@@ -82,6 +84,7 @@ const HomePage = () => {
           </div> :
           null
         }
+      </div>
     </>
   );
 }

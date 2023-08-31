@@ -25,7 +25,6 @@ body {
   overflow-x: hidden;
 }
 
-
 .swiper-wrapper {
   transition-timing-function: linear;
 }
@@ -35,16 +34,16 @@ body {
   width: 100%;
 }
 
-.myswiper .myswiper_slide{
+.myswiper .myswiper_slide {
   width: 100%;
   box-shadow: none;
 }
 
-.myswiper .myswiper_slide .swipholders_container_holder_card{
+.myswiper .myswiper_slide .swipholders_container_holder_card {
   width: 100%;
 }
 
-.myswiper .myswiper_slide .swipholders_container_holder_card img{
+.myswiper .myswiper_slide .swipholders_container_holder_card img {
   width: 100%;
   object-fit: cover;
 }
@@ -148,15 +147,62 @@ body {
 }
 
 
+@media screen and (max-width: 700px){
+  
+}
 
+
+/* ---------------------------   Accordion ---------------------- */
+
+.the_accorion_body {
+  width: 100%;
+  max-height: 0;
+  box-sizing: border-box;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  overflow: hidden;
+}
+
+.the_accorion_body.show_accordion_body {
+  width: 100%;
+  height: auto;
+  max-height: 9999px;
+  box-sizing: border-box;
+  transition: 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.the_accorion_body.show_accordion_body div {
+  padding-bottom: 20px;
+}
+
+.the_accorion_body img {
+  width: 7px;
+  margin: 0px 0 0px 10px;
+}
+
+.the_accorion_body p {
+  padding-top: 20px;
+  margin: 0 0 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .the_accorion_body
+    p {
+    font-size: 14px;
+  }
+    .the_accorion_body
+    ul
+    li {
+    font-size: 14px;
+  }
+}
 
 /*  ---------------------  bootstrap ------------------ */
 
-.accordion{
+.accordion {
   position: relative;
 }
 
-.accordion-button{
+.accordion-button {
   position: absolute;
   left: 0;
 }

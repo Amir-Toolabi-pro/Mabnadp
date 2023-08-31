@@ -44,13 +44,6 @@ const SwipHolders = ({ getholders, getlicense }) => {
     controller: { control: controlledSwiper },
   }
 
-  // const resize = window.addEventListener('resize', (event) => {
-  //   setSize(document.body.offsetWidth);
-  //   if (getSize <= 770) {
-  //     swiperKeys.coverflowEffect.modifier = 2
-  //   }
-  // })
-
 
 
   return (

@@ -313,3 +313,12 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width:400px){
+
+  .form_home .form_home_holder .get_counseling form .get_counseling_btn button {
+    padding: 6px 0;
+    width: 100%;
+  }
+
+}
