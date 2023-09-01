@@ -33,7 +33,9 @@ const AccordionAboutUs = () => {
         <h4>
           {item.title}
         </h4>
-        <button><ChevronDown color='#00b753' style={selected === i ? { transform: "rotate(180deg)" } : { transform: "rotate(0deg)" }} className={css.the_accorion_head_icon} /></button>
+        <div className={css.the_accorion_head_icon_holder} >
+          <button><ChevronDown color='#00b753' style={selected === i ? { transform: "rotate(180deg)" } : { transform: "rotate(0deg)" }} className={css.the_accorion_head_icon} /></button>
+        </div>
       </div>
       <div className={selected === i ? "the_accorion_body show_accordion_body" : "the_accorion_body"} >
         <div>

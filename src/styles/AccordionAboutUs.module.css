@@ -38,7 +38,11 @@
   .accordion_about_us_holder_accordions
   .the_accorion
   .the_accorion_head {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
   font-size: 22px;
   cursor: pointer;
   padding: 15px 0;
@@ -49,17 +53,36 @@
   .accordion_about_us_holder_accordions
   .the_accorion
   .the_accorion_head
+  h4 {
+  width: fit-content;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head
+  .the_accorion_head_icon_holder {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion_about_us
+  .accordion_about_us_holder
+  .accordion_about_us_holder_accordions
+  .the_accorion
+  .the_accorion_head
+  .the_accorion_head_icon_holder
   button {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
   outline: none;
   border: 1px solid #00b753;
   background-color: transparent;
   cursor: pointer;
-  height: 45px;
-  width: 45px;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -76,8 +99,6 @@
   font-size: 16px;
   transition: all ease 0.4s;
 }
-
-
 
 @media screen and (max-width: 680px) {
   .accordion_about_us .accordion_about_us_holder h2 {
@@ -97,12 +118,9 @@
     .accordion_about_us_holder_accordions
     .the_accorion
     .the_accorion_head
-    button {
-    left: -5px;
+    .the_accorion_head_icon_holder {
     height: 30px;
     width: 30px;
-    top: 50%;
-    transform: translateY(-50%);
   }
 }
 
@@ -119,10 +137,9 @@
     .accordion_about_us_holder_accordions
     .the_accorion
     .the_accorion_head
-    button {
+    .the_accorion_head_icon_holder {
     height: 25px;
     width: 25px;
-    left: -9px;
   }
   .accordion_about_us
     .accordion_about_us_holder
@@ -130,9 +147,9 @@
     .the_accorion
     .the_accorion_head
     .the_accorion_head_icon {
-    margin-top: 3px;
     font-size: 13px;
     transition: all ease 0.4s;
+    margin-top: 1px;
   }
   .accordion_about_us
     .accordion_about_us_holder
@@ -151,4 +168,11 @@
     li {
     font-size: 14px;
   }
+  .accordion_about_us
+    .accordion_about_us_holder
+    .accordion_about_us_holder_accordions
+    .the_accorion {
+    padding: 0 10px;
+  }
 }
+

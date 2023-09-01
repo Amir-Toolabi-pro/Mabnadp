@@ -605,7 +605,7 @@
   .about_mabna_days h3 {
     margin-bottom: 30px;
   }
-  
+
   .about_mabna_days .about_mabna_days_card_holder {
     flex-direction: column;
     align-items: center;
@@ -615,19 +615,19 @@
     bottom: 0;
     margin: 0 auto;
   }
-  
+
   .about_mabna_days .about_mabna_days_card_holder div {
     padding: 70px 0;
   }
-  
+
   .about_mabna_days .about_mabna_days_card_holder div strong {
     font-size: 40px;
   }
-  
+
   .about_mabna_days .about_mabna_days_card_holder div p {
     font-size: 20px;
   }
-  
+
   .about_mabna_days .about_mabna_days_card_holder div:nth-child(1) {
     width: 100%;
   }
@@ -855,5 +855,33 @@
 @media screen and (max-width: 400px) {
   .about_container .about_direction_mabna h3 {
     font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .about_container
+    .about_direction_mabna
+    .about_direction_mabna_img_holder
+    .child4 {
+    width: 300px;
+    height: 1000px;
+    object-fit: cover;
+  }
+
+  .about_container .about_head .about_head_img_holder {
+    width: 100%;
+    gap: 5px;
+    justify-content: center;
+  }
+  .about_container .about_head .about_head_img_holder div:nth-child(1) img {
+    width: 135px;
+    height: 90px;
+    object-fit: cover;
+  }
+
+  .about_container .about_head .about_head_img_holder div:nth-child(2) img {
+    width: 165px;
+    height: 90px;
+    object-fit: cover;
   }
 }

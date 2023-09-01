@@ -8,7 +8,6 @@ import circle from "../../images/icons8-circle-16.png"
 //
 // import 'swiper/css';
 import "swiper/swiper.min.css";
-import "swiper/components/pagination/pagination.min.css"
 import "swiper/components/navigation/navigation.min.css"
 import "swiper/components/controller/controller.min.css"
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -34,11 +33,33 @@ const SwipHolders = ({ getholders, getlicense }) => {
       nextEl: ".thumb_btn_next",
       prevEl: ".thumb_btn_prev",
     },
+    breakpoints: {
+      300: {
+        Width: 300,
+        slidesPerView: 2,
+      },
+      400: {
+        Width: 400,
+        slidesPerView: 3,
+      },
+      640: {
+        Width: 640,
+        slidesPerView: 4,
+      },
+      768: {
+        Width: 768,
+        slidesPerView: 5,
+      },
+      900: {
+        Width: 900,
+        slidesPerView: 5,
+      },
+    },
     coverflowEffect: {
       rotate: 0,
       stretch: 10,
       modifier: 4,
-      depth: 180,
+      depth: 160,
       slideShadows: true
     },
     controller: { control: controlledSwiper },
@@ -65,7 +86,7 @@ const SwipHolders = ({ getholders, getlicense }) => {
                   </SwiperSlide>
                   : null
               ) :
-              getlicense.map((person) => 
+              getlicense.map((person) =>
                 person.img ?
                   <SwiperSlide className="myswiper_slide" >
                     <div className="swipholders_container_holder_card">
