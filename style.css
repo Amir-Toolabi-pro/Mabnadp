@@ -147,8 +147,51 @@ body {
 }
 
 
-@media screen and (max-width: 700px){
-  
+@media screen and (max-width: 680px){
+  .thumb .SwipHolders_name {
+    font-size: 22px;
+  }
+  .thumb .thumb_btn_next {
+    left: 5%;
+    top: 50px;
+  }
+  .thumb .thumb_btn_prev {
+    right: 5%;
+    top: 50px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .thumb .SwipHolders_name {
+    font-size: 22px;
+  }
+  .thumb .SwipHolders_job {
+    font-size: 18px;
+    text-align: center;
+  }
+  .thumb .SwipHolders_talent {
+    text-align: center;
+    font-size: 14px;
+    color: #787878;
+  }
+  .thumb .thumb_btn_next {
+    display: none;
+  }
+  .thumb .thumb_btn_prev {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px){
+
+  .thumb ul li {
+    font-size: 13px;
+  }
+  .thumb ul img {
+    width: 7px;
+    margin-left: 5px;
+  }
+
 }
 
 
