@@ -14,13 +14,13 @@
 
 .contact_container .contact_head h3 {
   text-align: center;
-  font-size: 44px;
+  font-size: 40px;
   color: #fff;
 }
 
 .contact_container .contact_head p {
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .contact_container .system_customer_service p{
-  font-size: 18px;
+  font-size: 17px;
   color: #fff;
   text-align: center;
 }
@@ -55,7 +55,7 @@
 }
 
 .contact_container .system_customer_service div button{
-  font-size: 14px;
+  font-size: 13px;
   color: #fff;
   background-color: #00b753;
   border-radius: 8px;
@@ -95,7 +95,7 @@
 }
 
 .contact_icons div p{
-  font-size: 22px;
+  font-size: 20px;
   font-family: yekan;
 }
 

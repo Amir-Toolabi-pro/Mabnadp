@@ -1,9 +1,9 @@
 .consultation_request {
   width: 100%;
-  background-color: #01203c;
-  background-image: url(../images/header-banner-md.893d1f5d.jpg);
+  background-image: url(https://mabnadp.com/_next/static/media/header-banner.6217db9b.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center center;
   padding: 100px 0 120px;
   position: relative;
   top: 73px;
@@ -17,12 +17,13 @@
 }
 
 .consultation_request .head_para h2 {
-  font-size: 42px;
+  font-size: 38px;
   color: #fff;
+  margin-top: 30px;
 }
 
 .consultation_request .head_para p {
-  font-size: 24px;
+  font-size: 22px;
   margin: 20px 0;
   color: #fff;
 }
@@ -31,16 +32,17 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .consultation_request .btn_holder a {
   outline: none;
   border: none;
   color: #fff;
-  padding: 3px 30px 5px;
+  padding: 8px 30px 10px;
   background-color: #00b753;
   font-family: yekan;
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 7px;
   cursor: pointer;
   transition: all ease 0.3s;
@@ -57,7 +59,7 @@
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .consultation_request {
     top: 65px;
   }
@@ -65,11 +67,11 @@
 
 @media screen and (max-width: 770px) {
   .consultation_request .head_para h2 {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .consultation_request .head_para p {
-    font-size: 20px;
+    font-size: 18px;
     width: 300px;
   }
 }
@@ -96,7 +98,7 @@
   .consultation_request .btn_holder button {
     width: 100%;
     padding: 3px 0 5px;
-    font-size: 22px;
+    font-size: 20px;
     border-radius: 7px;
   }
 }

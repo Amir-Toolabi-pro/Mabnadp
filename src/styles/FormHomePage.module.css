@@ -40,7 +40,7 @@
 }
 
 .form_home .form_home_holder .get_counseling form .form_home_items p {
-  font-size: 17px;
+  font-size: 16px;
   transition: all ease 0.3s;
 }
 
@@ -51,7 +51,7 @@
   outline: none;
   border: 1px solid #bcbcbc;
   border-radius: 8px;
-  font-size: 15px;
+  font-size: 14px;
   transition: all ease 0.3s;
   resize: none;
   position: relative;
@@ -63,7 +63,7 @@
 }
 
 .form_home .form_home_holder .get_counseling form .form_home_items textarea::placeholder {
-  font-size: 15px;
+  font-size: 14px;
   font-family: yekan;
   color: #bcbcbc;
   padding: 0;
@@ -73,7 +73,7 @@
 }
 
 .form_home .form_home_holder .get_counseling form .form_home_items span {
-  font-size: 13px;
+  font-size: 12px;
   color: #bcbcbc;
   position: absolute;
   left: 0;
@@ -88,7 +88,7 @@
   outline: none;
   border: 1px solid #bcbcbc;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 16px;
   transition: all ease 0.3s;
 }
 
@@ -108,7 +108,7 @@
   /* Edge */
   font-family: yekan;
   color: #bcbcbc;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .form_home
@@ -120,7 +120,7 @@
   /* Internet Explorer 10-11 */
   font-family: yekan;
   color: #bcbcbc;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .form_home
@@ -131,7 +131,7 @@
   input::placeholder {
   font-family: yekan;
   color: #bcbcbc;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .form_home
@@ -181,7 +181,7 @@
 }
 
 .form_home .form_home_holder .get_counseling form .form_home_items .form_home_items_drop_down span{
-  font-size: 15px;
+  font-size: 14px;
   position: absolute;
   right: 5px;
   top: 55%;
@@ -239,7 +239,7 @@
 
 @media screen and (max-width:900px) {
   .form_home .form_home_holder .get_counseling h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .form_home .form_home_holder .get_counseling {
     width: 45%;
@@ -260,7 +260,7 @@
   .form_home .form_home_holder .get_counseling h3 {
     width: 90%;
     margin: 0 auto 10px;
-    font-size: 26px;
+    font-size: 24px;
     color: #fff;
     text-align: center;
   }

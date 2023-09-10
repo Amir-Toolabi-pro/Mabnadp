@@ -17,7 +17,7 @@
 
 .google_addres p{
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .google_addres p:nth-child(3){
@@ -27,6 +27,6 @@
 
 @media screen and (max-width: 550px) {
   .google_addres p{
-    font-size: 20px;
+    font-size: 18px;
   }
 }

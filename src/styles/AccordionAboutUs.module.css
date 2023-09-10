@@ -43,7 +43,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 5px;
-  font-size: 22px;
+  font-size: 20px;
   cursor: pointer;
   padding: 15px 0;
 }
@@ -96,13 +96,13 @@
   .the_accorion_head
   .the_accorion_head_icon {
   margin-top: 3px;
-  font-size: 16px;
+  font-size: 14px;
   transition: all ease 0.4s;
 }
 
 @media screen and (max-width: 680px) {
   .accordion_about_us .accordion_about_us_holder h2 {
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 25px;
   }
 
@@ -111,7 +111,7 @@
     .accordion_about_us_holder_accordions
     .the_accorion
     .the_accorion_head {
-    font-size: 16px;
+    font-size: 14px;
   }
   .accordion_about_us
     .accordion_about_us_holder
@@ -130,7 +130,7 @@
     .accordion_about_us_holder_accordions
     .the_accorion
     .the_accorion_head {
-    font-size: 15px;
+    font-size: 13px;
   }
   .accordion_about_us
     .accordion_about_us_holder
@@ -147,7 +147,7 @@
     .the_accorion
     .the_accorion_head
     .the_accorion_head_icon {
-    font-size: 13px;
+    font-size: 12px;
     transition: all ease 0.4s;
     margin-top: 1px;
   }
@@ -157,7 +157,7 @@
     .the_accorion
     .the_accorion_body
     p {
-    font-size: 14px;
+    font-size: 13px;
   }
   .accordion_about_us
     .accordion_about_us_holder
@@ -166,7 +166,7 @@
     .the_accorion_body
     ul
     li {
-    font-size: 14px;
+    font-size: 13px;
   }
   .accordion_about_us
     .accordion_about_us_holder

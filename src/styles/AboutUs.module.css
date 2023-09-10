@@ -19,14 +19,15 @@
 }
 
 .about_container .about_head .about_head_para h3 {
-  font-size: 38px;
+  font-size: 34px;
   color: #fff;
   width: 100%;
   text-align: right;
+  margin-top: 20px;
 }
 
 .about_container .about_head .about_head_para p {
-  font-size: 17px;
+  font-size: 16px;
   color: #fff;
   width: 70%;
   text-align: right;
@@ -57,7 +58,7 @@
 
 .about_container .about_direction_mabna h3 {
   color: #000;
-  font-size: 40px;
+  font-size: 36px;
   margin-bottom: 25px;
 }
 
@@ -153,7 +154,7 @@
 }
 
 .about_container .about_mabna_value h3 {
-  font-size: 36px;
+  font-size: 34px;
   margin-bottom: 30px;
 }
 
@@ -277,7 +278,7 @@
   .about_mabna_value_holder_para
   div
   h4 {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -369,7 +370,7 @@
 }
 
 .about_mabna_days h3 {
-  font-size: 38px;
+  font-size: 36px;
   color: #fff;
 }
 
@@ -391,13 +392,13 @@
 }
 
 .about_mabna_days .about_mabna_days_card_holder div strong {
-  font-size: 50px;
+  font-size: 45px;
   color: #00b753;
   line-height: 0;
 }
 
 .about_mabna_days .about_mabna_days_card_holder div p {
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 30px;
   line-height: 0;
 }
@@ -543,11 +544,11 @@
   }
 
   .about_container .about_head .about_head_para h3 {
-    font-size: 30px;
+    font-size: 27px;
   }
 
   .about_container .about_head .about_head_para p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 2;
   }
 
@@ -567,7 +568,7 @@
   }
 
   .about_container .about_direction_mabna h3 {
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 20px;
   }
 
@@ -621,11 +622,11 @@
   }
 
   .about_mabna_days .about_mabna_days_card_holder div strong {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .about_mabna_days .about_mabna_days_card_holder div p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .about_mabna_days .about_mabna_days_card_holder div:nth-child(1) {
@@ -760,7 +761,7 @@
   }
 
   .about_container .about_mabna_value h3 {
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 30px;
   }
 
@@ -854,7 +855,7 @@
 
 @media screen and (max-width: 400px) {
   .about_container .about_direction_mabna h3 {
-    font-size: 23px;
+    font-size: 22px;
   }
 }
 

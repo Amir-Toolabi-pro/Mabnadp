@@ -41,6 +41,8 @@ const HomePage = () => {
     setLocalName(name);
     setLocalNum(number)
     fetchData()
+      document.body.scrollTop = 0
+      document.documentElement.scrollTop = 0
   }, []);
 
   const currentUser = getUsers.find(user => {

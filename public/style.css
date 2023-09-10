@@ -9,9 +9,10 @@
 
 @font-face {
   font-family: "yekan";
-  src: url("./fonts/Yekan/Yekan.ttf") format("ttf"),
-    url("./fonts/Yekan/Yekan.eot") format("eot"),
-    url("./fonts/Yekan/Yekan.woff") format("woff");
+  src: url("./fonts/IRANsans/IRANSansWeb\(FaNum\)_Medium.ttf") format("ttf"),
+    url("./fonts/IRANsans/IRANSansWeb\(FaNum\)_Medium.eot") format("eot"),
+    url("./fonts/IRANsans/IRANSansWeb\(FaNum\)_Medium.woff") format("woff"),
+    url("./fonts/IRANsans/IRANSansWeb\(FaNum\)_Medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -68,21 +69,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 28px;
 }
 .thumb .SwipHolders_job {
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
 }
 .thumb .SwipHolders_talent {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   color: #787878;
 }
 
 .thumb .SwipHolders_license {
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   color: #787878;
 }
 .thumb ul {
@@ -92,7 +93,7 @@ body {
 }
 
 .thumb ul li {
-  font-size: 14px;
+  font-size: 13px;
 }
 .thumb ul img {
   width: 8px;
@@ -149,7 +150,7 @@ body {
 
 @media screen and (max-width: 680px){
   .thumb .SwipHolders_name {
-    font-size: 22px;
+    font-size: 21px;
   }
   .thumb .thumb_btn_next {
     left: 5%;
@@ -163,15 +164,15 @@ body {
 
 @media screen and (max-width: 450px){
   .thumb .SwipHolders_name {
-    font-size: 22px;
+    font-size: 21px;
   }
   .thumb .SwipHolders_job {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   }
   .thumb .SwipHolders_talent {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     color: #787878;
   }
   .thumb .thumb_btn_next {
@@ -185,7 +186,7 @@ body {
 @media screen and (max-width: 350px){
 
   .thumb ul li {
-    font-size: 13px;
+    font-size: 12px;
   }
   .thumb ul img {
     width: 7px;
@@ -230,12 +231,12 @@ body {
 @media screen and (max-width: 500px) {
     .the_accorion_body
     p {
-    font-size: 14px;
+    font-size: 13px;
   }
     .the_accorion_body
     ul
     li {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 

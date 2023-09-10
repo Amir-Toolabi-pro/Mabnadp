@@ -102,7 +102,7 @@ header .header_container .logo_and_navbar nav ul li {
 }
 
 header .header_container .logo_and_navbar nav ul li a {
-  font-size: 18px;
+  font-size: 16px;
   padding: 20px;
   display: inline-block;
   z-index: 9;
@@ -147,7 +147,7 @@ header .header_container .btn_login_header button {
   outline: none;
   border: none;
   color: #fff;
-  padding: 6px 51px 7px;
+  padding: 8px 51px 9px;
   background-color: #00b753;
   font-family: yekan;
   font-size: 14px;

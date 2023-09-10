@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 //style
@@ -29,6 +29,11 @@ const AboutUs = () => {
       setScroll(false)
     }
   });
+
+  useEffect(() => {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+  }, [])
 
   const getholders = [
     {

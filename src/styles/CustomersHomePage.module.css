@@ -15,7 +15,7 @@
 
 .customers p{
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   margin: 5px 0 25px;
 }
 
@@ -50,7 +50,7 @@
 .customers .customers_cards .customers_card .customers_logo_holder p{
   padding: 0;
   margin: 0;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 
@@ -68,7 +68,7 @@
   .customers .customers_cards .customers_card .customers_logo_holder p{
     padding: 0;
     margin: 0;
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -82,11 +82,11 @@
   }
 
   .customers h3{
-    font-size: 26px;
+    font-size: 25px;
   }
   
   .customers p{
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 60px;
   }
 
